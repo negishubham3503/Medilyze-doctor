@@ -2,8 +2,6 @@ import React, { useEffect, useMemo, useState } from 'react';
 import './tabComponents.css';
 import LogoImg from '../../../../images/logo.png';
 import Rx from '../../../../images/rx.png';
-import MailImg from '../../../../images/mail.png';
-import { Page, Text, Image, View, Document, StyleSheet, PDFViewer } from '@react-pdf/renderer';
 import { Typography } from "@material-ui/core";
 const Prescription = (props) => {
     const [prescriptionData, setPrescriptionData] = useState();
